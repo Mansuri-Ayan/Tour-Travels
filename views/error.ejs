@@ -1,0 +1,12 @@
+<!-- @format -->
+
+<% layout("/layouts/boilerplate") -%>
+<div class="row">
+  <div class="alert alert-danger col-6 offset-3 mt-4" role="alert">
+    <!-- <svg class="bi flex-shrink-0 me-2" role="img" aria-label="Danger:">
+      <use xlink:href="#exclamation-triangle-fill" />
+    </svg> -->
+    <h5><%= err.message %></h5>
+    <p style="word-wrap: break-word;word-break: keep-all;"><%= err.stack %></p>
+  </div>
+</div>
